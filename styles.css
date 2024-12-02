@@ -1,0 +1,93 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #009ece; /* Green background */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 100px;
+}
+.maps img {
+    height: 500px;
+    align-content: center;
+    margin: 100px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-buttons button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-buttons button:hover {
+    background-color: #555;
+}
+
+/* Content section styling */
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #009ece;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+/* General Body Styling */
+
+/* Optional: Custom button styling (if you want to adjust buttons) */
+.nav-buttons .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.card {
+    width: 100%;
+    max-width: 1600px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
